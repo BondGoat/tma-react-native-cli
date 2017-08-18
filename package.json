@@ -1,0 +1,21 @@
+{
+  "name": "tma-react-native-cli",
+  "version": "0.0.1",
+  "description": "Command-line tool for building React Native project in TMA",
+  "main": "index.js",
+  "scripts": {
+    "test": "tma-react-native"
+  },
+  "keywords": [
+    "tma",
+    "tma react native"
+  ],
+  "author": "Bond Nguyen (Senior Developer)",
+  "license": "Apache-2.0",
+  "bin": {
+    "tma-react-native": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^2.11.0"
+  }
+}
